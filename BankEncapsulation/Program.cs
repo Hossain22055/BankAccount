@@ -8,7 +8,7 @@ namespace BankEncapsulation
         {
 
             BankAccount account = new BankAccount();
-            Console.WriteLine("Deposit your money");
+            Console.WriteLine("Please enter your deposit amount ");
 
             var amountTODeposit = double.Parse(Console.ReadLine());
             account.Deposit(amountTODeposit);
